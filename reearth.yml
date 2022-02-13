@@ -1,0 +1,15 @@
+id: tweet-block-reearth-plugin
+name: Tweet Block ReEarth Plug-in
+version: 1.0.0
+extensions:
+  - id: tweet
+    type: block
+    name: Tweet
+    schema:
+      groups:
+        - id: default
+          fields:
+            - id: code
+              type: string
+              title: Code for Embed
+
